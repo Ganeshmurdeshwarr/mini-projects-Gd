@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: rgb(35, 14, 74);
+}
+
+.container {
+   
+    width: 90%;
+    max-width: 600px;
+    margin: 10vw 8vw 0;
+    padding: 20px;
+}
+
+.gen {
+    padding: 10px;
+    color: white;
+    font-size: 34px;
+    font-weight: 800;
+}
+.ran {
+    padding: 10px;
+    font-size: 46px;
+    font-weight: 800;
+    color: green;
+    border-bottom: 4px solid green;
+    width: 71%;
+    margin-bottom: 21px;
+}
+
+.generate{
+    width: 100%;
+    padding: 15px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    margin-bottom: 15px;
+    color: rgb(6, 6, 83);
+    font-size: 18px;
+    background-color: blanchedalmond;
+}
+.btn{
+    background: #5ab45a;
+    padding: 15px 15px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    color: white;
+}
