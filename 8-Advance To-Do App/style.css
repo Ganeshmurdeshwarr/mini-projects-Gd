@@ -1,0 +1,126 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(54, 52, 52);
+  color: white;
+}
+
+.conatiner {
+  max-width: 80%;
+  width: 50%;
+  margin: 70px auto;
+  height: auto;
+  text-align: center;
+  background-color: rgb(198, 125, 17);
+  padding: 20px;
+}
+.header {
+  padding: 20px;
+}
+.h1 {
+  font-size: 50px;
+  color: #f6f7f6;
+  padding: 15px;
+  font-weight: 700;
+}
+
+.display {
+  width: auto;
+}
+
+#input {
+  width: 50%;
+  padding: 14px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+.addBtn {
+  margin-left: 15px;
+  width: 15%;
+  padding: 14px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+.taskContainer {
+  padding: 52px 0;
+}
+
+.task {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  width: auto;
+  /* margin-left: 10%; */
+  margin-bottom: 20px;
+  height: auto;
+  background-color: black;
+
+  padding-left: 10px;
+  border-radius: 10px;
+}
+.task .para {
+  text-align: start;
+  font-size: 25px;
+  font-weight: 400;
+  /* background-color: aqua; */
+  padding: 15px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.btns {
+  display: flex;
+  gap: 5px;
+}
+.dltBtn {
+  margin-left: 15px;
+  width: 80px;
+  padding: 14px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background-color: red;
+}
+.edtBtn {
+  margin-left: 15px;
+  width: 80px;
+  padding: 14px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background-color: rgb(35, 211, 173);
+}
+.saveBtn {
+  margin-left: 15px;
+  width: 80px;
+  padding: 14px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  display: none;
+  background-color: green;
+}
+#editInput{
+  text-align: start;
+  font-size: 20px;
+  font-weight: 400;
+  width: 100%;
+  border-radius: 10px;
+  display: none;
+  padding-right: 150px;
+  border:none;
+  outline: none;
+  padding: 10px 0;
+
+}
